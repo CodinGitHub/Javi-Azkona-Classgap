@@ -1,3 +1,5 @@
+//REPASO DE LOS ARREGLOS
+
 let number = 10;
 
 let array = ['aceite', 'arroz', 'tomate'];
@@ -21,9 +23,22 @@ console.log(array);
 array.shift('cerveza');
 console.log(array);
 
+// ForEach - No retorna nada, pero si ejecuta la funcion.
 
 let numberArray = [10, 20, 30, 40, 50, 60, 70];
 
 for(let i =0; i< numberArray.length; i++){
     console.log(numberArray[i] + 3);
 }
+
+numberArray.forEach( element=>{
+    console.log(element + 3);
+})
+
+// MAP - Retorna un valor
+
+let resultado = numberArray.map(element=>{
+    return element + 3 ;
+});
+
+console.log(resultado)
