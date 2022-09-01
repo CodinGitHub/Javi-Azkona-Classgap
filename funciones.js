@@ -27,4 +27,4 @@ setTimeout( (nombre1, nombre2) =>{
 // Caracteristicas funciones flecha
 // No se la puede reutilizar por que no tiene un nombre
 // No dispone de hosting
-// Cuando hay un parametro, ya no se utilizan los parentesis
+// Cuando hay un parametro, ya no se utiliza los parentesis

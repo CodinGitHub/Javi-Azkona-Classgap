@@ -35,7 +35,7 @@ numberArray.forEach( element=>{
     console.log(element + 3);
 })
 
-// MAP - Retorna un valor
+// MAP - Retorna un arreglo
 
 let resultado = numberArray.map(element=>{
     return element + 3 ;
